@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+.contianer{
+    width: 100em;
+}
+.navbar{
+    background:#fdfdfd;
+    padding: 1em 3em;
+
+}
+.navbar-toggler{
+    background-color: rgb(252, 252, 252);
+
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-family: 'Work Sans', sans-serif;
+    float: left;
+    font-size: 1.6em;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.nav-link span{
+    color: rgb(17, 0, 255);
+    text-transform: capitalize;
+
+   
+}
+.nav-item .home{
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    justify-content: space-between;
+    letter-spacing: .05em;
+    font-weight: 600;
+    z-index: 1;
+    margin: .5em 2em;
+  
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+    
+
+}
+.nav-item .home:hover{
+    /* box-sizing: border-box;
+  border-top: 2px solid rgb(240, 8, 47);
+   background: rgba(87, 82, 72, 0.205); */
+   display: block;
+   padding: 15px;
+   text-decoration: none;
+   color: #aaa;
+   font-weight: 800;
+   text-transform: uppercase;
+   margin: 0 10px;
+   background: rgba(228, 225, 221, 0.075);
+   border-top: 1px solid rgb(85, 38, 173);
+
+
+
+   display: block;
+   padding: 15px;
+   text-decoration: none;
+   color: #aaa;
+   font-weight: 800;
+   text-transform: uppercase;
+   margin: 0 10px;
+
+
+  
+
+}
+
+.nav-item .active{
+   background: rgba(6, 103, 250, 0.336);
+   border-radius: .3em;
+
+}
+
+.navbar-nav .nav-item .fa-clock-o{
+    font-size: 1.2em;
+    margin: 0.5em;
+    color: rgb(57, 89, 235);
+    font-weight: 800;
+}
+.navbar-nav .nav-item span{
+    display: inline-flex;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color: rgb(70, 68, 68);
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-item .fa-phone{
+    font-size: 1.2em;
+    margin: 0.5em;
+    color: rgb(57, 89, 235);
+    font-weight: 800;
+}
+.login{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    
+}
+.login:hover{
+   background: rgb(7, 197, 245);
+   color: white;
+    
+}
+ .form-container{
+    position: relative;
+    top: -10em;
+    left: 50em;
+    border: 2px solid #aaa;
+    height: 9em;
+    padding: 3em 1em
+}
+.container .text-start h1{
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+    
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
